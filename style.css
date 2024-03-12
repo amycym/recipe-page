@@ -120,6 +120,22 @@ p {
     font-size: var(--fs-800);
 }
 
+span{
+    font-weight: var(--fw-bold);
+}
+
+.grid-flow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 3rem;
+}
+
+.nutrition-values {
+    color: var(--clr-primary-700);
+    font-weight: var(--fw-bold);
+}
+
+/* list-styles */
 .list-container {
     padding: 1.5rem;
     border-radius: 1rem;
@@ -139,19 +155,4 @@ ol li::marker{
 
 li{
     padding: 1rem;
-}
-
-span{
-    font-weight: var(--fw-bold);
-}
-
-.grid-flow{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 3rem;
-}
-
-.nutrition-values {
-    color: var(--clr-primary-700);
-    font-weight: var(--fw-bold);
 }
