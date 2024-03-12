@@ -12,3 +12,28 @@
     src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format('truetype');
 }
 
+:root{
+    --clr-primary-700: hsl(14, 45%, 36%);
+    --clr-primary-600: hsl(332, 51%, 32%);
+
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-200: hsl(330, 100%, 98%);
+    --clr-neutral-300: hsl(30, 54%, 90%);
+    --clr-neutral-400: hsl(30, 18%, 87%);
+    --clr-neutral-500: hsl(30, 10%, 34%);
+    --clr-neutral-600: hsl(24, 5%, 18%);
+
+    --font-family-title: "Young Serif", serif;
+    --font-familt-paragraph: "Outfit", sans-serif;
+
+    --fw-normal: 400;
+    --fw-bold: 600;
+    --fw-black: 700;
+
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 1.75rem;
+    --fs-800: 2rem;
+    --fs-900: 4.5rem;
+}
