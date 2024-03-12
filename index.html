@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Recipe page</title>
   <link rel="stylesheet" href="style.css">
 
@@ -15,12 +15,12 @@
 
     <section class="recipe-preparation">
 
-
       <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
         to perfection, optionally filled with your choice of cheese, vegetables, or meats.
       </p>
 
-      <div class="list">Preparation time
+      <div class="list-container">
+        <p>Preparation time</p>
         <ul class="recipe-list">
           <li>Total: Approximately 10 minutes</li>
           <li>Preparation: 5 minutes</li>
@@ -28,8 +28,8 @@
         </ul>
       </div>
 
-      <h2 class="recipe-title">Ingredients</h2>
-      <div class="list-container">
+      <h2 class="recipe-header">Ingredients</h2>
+      <div>
         <ul class="recipe-list">
           <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
@@ -42,9 +42,9 @@
 
     <section class="recipe-instructions">
 
-      <h2 class="recipe-title">Instructions</h2>
+      <h2 class="recipe-header">Instructions</h2>
 
-      <ol class="list-container">
+      <ol class="list-instructions">
         <li>Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
           You can add a tablespoon of water or milk for a fluffier texture.</li>
         <li>Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.</li>
@@ -56,13 +56,13 @@
     </section> 
 
     <section class="recipe-nutrition">
-      <h2 class="recipe-title">Nutrition</h2>
+      <h2 class="recipe-header">Nutrition</h2>
 
       <p>The table below shows nutritional values per serving without the additional fillings.
       </p>
 
       <div class="grid-flow">
-        
+
         <div class="flex-flow">
           <p>Calories</p>
           <p>277kcal</p>
