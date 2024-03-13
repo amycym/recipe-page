@@ -58,16 +58,15 @@ body {
     font-family: var(--font-family-paragraph);
     color: var(--clr-neutral-500);
     font-size: var(--fs-500);
-    line-height: 1.8rem;
+    line-height: 3.5rem;
     margin: 10%;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     body {
         display: grid;
         min-height: 100vh;
         place-items: center;
-        line-height: 3.7rem;
     }
 
 }
@@ -83,6 +82,13 @@ p {
 
 .recipe-image{
     overflow: hidden;
+    border-radius: 2rem;
+}
+
+@media (max-width: 600px){
+    .recipe-image{
+        border-radius: 0;
+    }
 }
 
 .recipe-page {
@@ -92,6 +98,7 @@ p {
     display: grid;
     padding: 2rem;
     gap: 2.5rem;
+    margin-inline: auto;
 }
 
 .recipe-title{
