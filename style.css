@@ -49,7 +49,6 @@
 
 img, svg {
     display: block;
-    max-width: 100%;
 }
 
 /* styles */
@@ -58,46 +57,49 @@ body {
     font-family: var(--font-family-paragraph);
     color: var(--clr-neutral-500);
     font-size: var(--fs-500);
-    line-height: 3.5rem;
-    margin: 10%;
+    line-height: 3.3rem;
+    margin: 6%;
+    margin-inline: auto;
+    max-width: 60rem;
+    padding: 5% 5% 0 5%;
 }
 
-@media (max-width: 600px) {
-    body {
-        display: grid;
-        min-height: 100vh;
-        place-items: center;
-    }
-
-}
-
-hr {
-    color: var(--clr-neutral-500);
-}
-
-p {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+.image-box{
+    background: white;
+    padding: 5%;
+    border-radius: 2rem 2rem 0 0;
 }
 
 .recipe-image{
     overflow: hidden;
     border-radius: 2rem;
+    max-width: 100%;
 }
 
 @media (max-width: 600px){
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
     .recipe-image{
+        border-radius: 0;
+    }
+
+    .image-box{
+        padding: 0;
         border-radius: 0;
     }
 }
 
+
 .recipe-page {
     background: var(--clr-neutral-100);
-    max-width: 55rem;
-    border-radius: 2rem;
+    max-width: 60rem;
+    border-radius: 0 0 2rem 2rem;
     display: grid;
-    padding: 2rem;
-    gap: 2.5rem;
+    padding: 3.5rem;
+    gap: 2rem;
     margin-inline: auto;
 }
 
@@ -123,6 +125,7 @@ p {
     color: var(--clr-primary-700);
     font-weight: var(--fw-black);
     font-size: var(--fs-800);
+    padding-bottom: 1rem;
 }
 
 span{
@@ -132,7 +135,7 @@ span{
 .grid-flow{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 3rem;
+    margin-left: 3.5rem;
 }
 
 .nutrition-values {
@@ -142,7 +145,7 @@ span{
 
 /* list-styles */
 .list-container {
-    padding: 1.5rem;
+    padding: 1rem 0 1.5rem 2.5rem;
     border-radius: 1rem;
 }
 
@@ -156,8 +159,5 @@ span{
 
 ol li::marker{
     color: var(--clr-primary-700);
-}
-
-li{
-    padding: 1rem;
+    font-weight: var(--fw-black);
 }
